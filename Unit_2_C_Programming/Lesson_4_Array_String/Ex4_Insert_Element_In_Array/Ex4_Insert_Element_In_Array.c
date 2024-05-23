@@ -45,15 +45,20 @@ int main(void)
 	fflush(stdin);fflush(stdout);
 	scanf("%d",&location);
 
+	//stretch the Array
+	for (i=elements-1; i>=location-1; i--)
+	{
+		mat[i+1]=mat[i];
+	}
+
 	//put that value in related location in Array
 	mat[location-1]=value;
 
 	//print updated values
 	printf("\n");
-	for (i=0; i<elements; i++)
+	for (i=0; i<elements+1; i++)
 	{
 		printf("%d\t",mat[i]);
 	}
-
 	return EXIT_SUCCESS;
 }

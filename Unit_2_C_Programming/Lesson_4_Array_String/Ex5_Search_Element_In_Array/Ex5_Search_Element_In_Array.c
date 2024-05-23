@@ -14,7 +14,7 @@
 int main(void)
 {
 	int mat[20];
-	int elements,value,location;
+	int elements,value,location=0;
 	int i; //i is a counter
 
 	//scan numbers of elements
@@ -50,7 +50,10 @@ int main(void)
 		}
 	}
 
-	//print Founded location
-	printf("\nNumber found at the location = %d",location);
+	//print Founded location or not found
+	if (location!=0)
+		printf("\nNumber found at the location = %d",location);
+	else
+		printf("Number not found");
 	return EXIT_SUCCESS;
 }
