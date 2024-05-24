@@ -23,13 +23,13 @@ int main(void)
 	fflush(stdin);fflush(stdout);
 	scanf("%d",&num);
 
-	if (num<0 || num<sizeof(arr)/sizeof(arr[0])-1)
+	if (num<=0 || num>sizeof(arr)/sizeof(arr[0]))
 			{
-		printf("Error numbers of data should be from 1 to %d",sizeof(arr)/sizeof(arr[0])-1 );
+		printf("Error numbers of data should be from 1 to %d",sizeof(arr)/sizeof(arr[0]) );
 			}
 	else
 	{
-		for (i=0; i<num && i<sizeof(arr)/sizeof(arr[0]-1); i++) //2nd condition for data more the elements in array, in this case take max no of elements in array
+		for (i=0; i<num; i++)
 		{
 			printf("%d. Enter number: ",i+1);
 			fflush(stdin);fflush(stdout);
