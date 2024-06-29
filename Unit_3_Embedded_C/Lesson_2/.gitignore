@@ -8,4 +8,3 @@
 # Blacklist .doc and .pdf
 *.docx
 *.pdf
-*gitignore.text
