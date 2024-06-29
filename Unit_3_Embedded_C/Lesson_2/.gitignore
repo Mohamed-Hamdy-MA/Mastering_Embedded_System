@@ -6,5 +6,6 @@
 # *~
 
 # Blacklist .doc and .pdf
-*.doc
+*.docx
 *.pdf
+*gitignore.text
