@@ -77,27 +77,32 @@ OUTPUT(Learn_In_Depth.elf elf32-littlearm)
                                  0x12 (size before relaxing)
  .comment       0x00000000       0x12 uart.o
 
-.debug_info     0x00000000       0xc8
- .debug_info    0x00000000       0x6c app.o
- .debug_info    0x0000006c       0x5c uart.o
+.debug_line     0x00000000       0xac
+ .debug_line    0x00000000       0x3a startup.o
+ .debug_line    0x0000003a       0x35 app.o
+ .debug_line    0x0000006f       0x3d uart.o
 
-.debug_abbrev   0x00000000       0xab
- .debug_abbrev  0x00000000       0x5a app.o
- .debug_abbrev  0x0000005a       0x51 uart.o
+.debug_info     0x00000000      0x154
+ .debug_info    0x00000000       0x8c startup.o
+ .debug_info    0x0000008c       0x6c app.o
+ .debug_info    0x000000f8       0x5c uart.o
+
+.debug_abbrev   0x00000000       0xbf
+ .debug_abbrev  0x00000000       0x14 startup.o
+ .debug_abbrev  0x00000014       0x5a app.o
+ .debug_abbrev  0x0000006e       0x51 uart.o
+
+.debug_aranges  0x00000000       0x60
+ .debug_aranges
+                0x00000000       0x20 startup.o
+ .debug_aranges
+                0x00000020       0x20 app.o
+ .debug_aranges
+                0x00000040       0x20 uart.o
 
 .debug_loc      0x00000000       0x58
  .debug_loc     0x00000000       0x2c app.o
  .debug_loc     0x0000002c       0x2c uart.o
-
-.debug_aranges  0x00000000       0x40
- .debug_aranges
-                0x00000000       0x20 app.o
- .debug_aranges
-                0x00000020       0x20 uart.o
-
-.debug_line     0x00000000       0x72
- .debug_line    0x00000000       0x35 app.o
- .debug_line    0x00000035       0x3d uart.o
 
 .debug_str      0x00000000       0xa4
  .debug_str     0x00000000       0x88 app.o
