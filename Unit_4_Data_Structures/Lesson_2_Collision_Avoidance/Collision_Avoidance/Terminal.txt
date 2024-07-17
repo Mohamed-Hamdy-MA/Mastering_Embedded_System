@@ -1,0 +1,37 @@
+Sensor initialization
+Actuator initialization
+Sensor Reading State: Distance = 53
+Sensor -----> ObstaclesDetection: SensorDistanceSignal(53)
+Driving State - No Obstacles Detected: Distance = 53
+ObstaclesDetection -----> MotionActuator: MotorSpeedSignal(30)
+Actuator Busy State: Speed = 30
+Sensor Reading State: Distance = 54
+Sensor -----> ObstaclesDetection: SensorDistanceSignal(54)
+Driving State - No Obstacles Detected: Distance = 54
+ObstaclesDetection -----> MotionActuator: MotorSpeedSignal(30)
+Actuator Busy State: Speed = 30
+Sensor Reading State: Distance = 54
+Sensor -----> ObstaclesDetection: SensorDistanceSignal(54)
+Driving State - No Obstacles Detected: Distance = 54
+ObstaclesDetection -----> MotionActuator: MotorSpeedSignal(30)
+Actuator Busy State: Speed = 30
+Sensor Reading State: Distance = 46
+Sensor -----> ObstaclesDetection: SensorDistanceSignal(46)
+Waiting State - Obstacles Detected: Distance = 46
+ObstaclesDetection -----> MotionActuator: MotorSpeedSignal(0)
+Actuator Busy State: Speed = 0
+Sensor Reading State: Distance = 52
+Sensor -----> ObstaclesDetection: SensorDistanceSignal(52)
+Driving State - No Obstacles Detected: Distance = 52
+ObstaclesDetection -----> MotionActuator: MotorSpeedSignal(30)
+Actuator Busy State: Speed = 30
+Sensor Reading State: Distance = 50
+Sensor -----> ObstaclesDetection: SensorDistanceSignal(50)
+Waiting State - Obstacles Detected: Distance = 50
+ObstaclesDetection -----> MotionActuator: MotorSpeedSignal(0)
+Actuator Busy State: Speed = 0
+Sensor Reading State: Distance = 50
+Sensor -----> ObstaclesDetection: SensorDistanceSignal(50)
+Waiting State - Obstacles Detected: Distance = 50
+ObstaclesDetection -----> MotionActuator: MotorSpeedSignal(0)
+Actuator Busy State: Speed = 0
