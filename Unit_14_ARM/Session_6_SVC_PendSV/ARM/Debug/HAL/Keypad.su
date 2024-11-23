@@ -1,0 +1,2 @@
+../HAL/Keypad.c:42:6:HAL_Keypad_Init	16	static
+../HAL/Keypad.c:87:6:HAL_Keypad_getPressedKey	16	static

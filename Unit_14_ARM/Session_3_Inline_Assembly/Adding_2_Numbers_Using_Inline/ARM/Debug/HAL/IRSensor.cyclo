@@ -1,0 +1,2 @@
+../HAL/IRSensor.c:18:6:HAL_IRSensor_Init	1
+../HAL/IRSensor.c:29:24:HAL_IRSensor_getStatus	2

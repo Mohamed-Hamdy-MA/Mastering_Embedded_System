@@ -1,0 +1,17 @@
+../HAL/LCD2x16.c:139:6:LCD_delay_us	3
+../HAL/LCD2x16.c:181:6:LCD_GPIO_DB_ConfigurePins	3
+../HAL/LCD2x16.c:251:23:LCD_getFLAG	11
+../HAL/LCD2x16.c:343:6:LCD_EN_Kick	1
+../HAL/LCD2x16.c:382:6:LCD_WriteOnDB	4
+../HAL/LCD2x16.c:439:6:LCD_AdjustNextDisplayPosition	6
+../HAL/LCD2x16.c:483:6:LCD_4Bits_InstructionsInitialization	2
+../HAL/LCD2x16.c:521:6:LCD_8Bits_InstructionsInitialization	2
+../HAL/LCD2x16.c:566:5:power	3
+../HAL/LCD2x16.c:588:6:HAL_LCD_Init	2
+../HAL/LCD2x16.c:651:6:HAL_LCD_SendChar	4
+../HAL/LCD2x16.c:688:6:HAL_LCD_SendString	2
+../HAL/LCD2x16.c:696:6:HAL_LCD_ClearDisplay	2
+../HAL/LCD2x16.c:710:6:HAL_LCD_SendInstruction	10
+../HAL/LCD2x16.c:769:6:HAL_LCD_MoveCursor	5
+../HAL/LCD2x16.c:798:6:HAL_LCD_SendInteger	2
+../HAL/LCD2x16.c:814:6:HAL_LCD_SendFloat	3

@@ -1,0 +1,17 @@
+../HAL/LCD2x16.c:139:6:LCD_delay_us	24	static
+../HAL/LCD2x16.c:181:6:LCD_GPIO_DB_ConfigurePins	24	static
+../HAL/LCD2x16.c:251:23:LCD_getFLAG	24	static
+../HAL/LCD2x16.c:343:6:LCD_EN_Kick	8	static
+../HAL/LCD2x16.c:382:6:LCD_WriteOnDB	16	static
+../HAL/LCD2x16.c:439:6:LCD_AdjustNextDisplayPosition	8	static
+../HAL/LCD2x16.c:483:6:LCD_4Bits_InstructionsInitialization	8	static
+../HAL/LCD2x16.c:521:6:LCD_8Bits_InstructionsInitialization	8	static
+../HAL/LCD2x16.c:566:5:power	32	static
+../HAL/LCD2x16.c:588:6:HAL_LCD_Init	24	static
+../HAL/LCD2x16.c:651:6:HAL_LCD_SendChar	16	static
+../HAL/LCD2x16.c:688:6:HAL_LCD_SendString	16	static
+../HAL/LCD2x16.c:696:6:HAL_LCD_ClearDisplay	8	static
+../HAL/LCD2x16.c:710:6:HAL_LCD_SendInstruction	16	static
+../HAL/LCD2x16.c:769:6:HAL_LCD_MoveCursor	24	static
+../HAL/LCD2x16.c:798:6:HAL_LCD_SendInteger	32	static
+../HAL/LCD2x16.c:814:6:HAL_LCD_SendFloat	64	static

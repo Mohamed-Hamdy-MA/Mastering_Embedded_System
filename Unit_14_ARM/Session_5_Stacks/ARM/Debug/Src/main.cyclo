@@ -1,0 +1,8 @@
+../Src/main.c:76:9:TaskA	1
+../Src/main.c:82:9:TaskB	1
+../Src/main.c:88:6:myPB9EXTIHandler	2
+../Src/main.c:102:6:SVC_Handler	1
+../Src/main.c:107:6:mainOS	3
+../Src/main.c:154:6:clock_init	1
+../Src/main.c:160:6:GPIO_init	1
+../Src/main.c:184:5:main	1
